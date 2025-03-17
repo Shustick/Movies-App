@@ -1,0 +1,10 @@
+h1,
+p,
+span {
+  margin: 0;
+}
+
+.content {
+  margin: auto;
+  max-width: 1010px;
+}

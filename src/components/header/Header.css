@@ -1,0 +1,42 @@
+.header {
+  width: 100%;
+  padding: 13px 13px 19px 13px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-btns {
+  display: flex;
+  justify-content: center;
+  width: 146px;
+  height: 54px;
+}
+
+.nav-btn {
+  width: 73px;
+  border: none;
+  background-color: unset;
+  box-shadow:
+    0 1px 0 0 #ffffff,
+    0 2px 0 0 #d9d9d9;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000a6;
+
+  cursor: pointer;
+}
+
+.selected-btn {
+  color: #1890ff;
+  box-shadow: 0 2.24px 0 0 #1890ff;
+}
+
+.nav-btn:hover {
+  transition: 0.4s ease-out;
+  color: #1890ff;
+  box-shadow: 0 2.24px 0 0 #1890ff;
+  background-color: #188fff16;
+}
