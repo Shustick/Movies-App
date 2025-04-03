@@ -1,0 +1,54 @@
+.current-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  padding: 8px 6px;
+  box-sizing: border-box;
+  border: solid 2px #e90000;
+  border-radius: 50px;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 0px;
+
+  cursor: default;
+}
+
+.red-rating {
+  border-color: #e90000;
+}
+
+.current-rating.red-rating:hover {
+  transition: 0.1s ease-out;
+  box-shadow: 0 0 0 2px #e90000;
+}
+
+.orange-rating {
+  border-color: #e97e00;
+}
+
+.current-rating.orange-rating:hover {
+  transition: 0.1s ease-out;
+  box-shadow: 0 0 0 2px #e97e00;
+}
+
+.yellow-rating {
+  border-color: #e9d100;
+}
+
+.current-rating.yellow-rating:hover {
+  transition: 0.1s ease-out;
+  box-shadow: 0 0 0 2px #e9d100;
+}
+
+.green-rating {
+  border-color: #66e900;
+}
+
+.current-rating.green-rating:hover {
+  transition: 0.1s ease-out;
+  box-shadow: 0 0 0 2px #66e900;
+}

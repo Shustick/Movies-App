@@ -1,0 +1,16 @@
+.showMoreBtn {
+  display: inline-block;
+  padding: 3px;
+  border-radius: 3px;
+  border: none;
+  background: none;
+  color: #1890ff;
+  line-height: 15px;
+
+  cursor: pointer;
+}
+
+.showMoreBtn:hover {
+  transition: 0.1s ease-out;
+  background-color: #d9d9d941;
+}

@@ -9,11 +9,12 @@
 
 .image {
   width: 183px;
-  height: 279px;
+  height: 285px;
 }
 
 .descriptions {
-  padding: 10px 20px 10px 20px;
+  max-width: 239px;
+  padding: 10px 9px 10px 20px;
   flex-direction: column;
   gap: 7px;
 
@@ -23,7 +24,13 @@
   letter-spacing: 0px;
 }
 
+.container-title {
+  justify-content: space-between;
+  gap: 5px;
+}
+
 .title {
+  max-width: 195px;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
@@ -33,32 +40,20 @@
   color: #827e7e;
 }
 
-.genres {
+.spin-container {
   display: flex;
-  gap: 8px;
+  justify-content: center;
+  padding-top: 100px;
 }
 
-.genre {
-  line-height: 100%;
-  padding: 2px 4px 3px 5px;
-  border-radius: 2px;
-  color: #000000a6;
-  background-color: #fafafa;
-  border: 1px solid #d9d9d9;
+.image-spin-container {
+  width: 100%;
+  height: 279px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
-.showMoreBtn {
-  display: inline-block;
-  padding: 3px;
-  border-radius: 3px;
-  border: none;
-  background: none;
-  color: #1890ff;
-  line-height: 15px;
-
-  cursor: pointer;
-}
-.showMoreBtn:hover {
-  transition: 0.1s ease-out;
-  background-color: #d9d9d941;
+.image-spin {
+  align-self: center;
 }

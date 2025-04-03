@@ -6,5 +6,11 @@ span {
 
 .content {
   margin: auto;
+  margin-bottom: 17px;
   max-width: 1010px;
+}
+
+.offline {
+  text-align: center;
+  margin-top: 50px;
 }
